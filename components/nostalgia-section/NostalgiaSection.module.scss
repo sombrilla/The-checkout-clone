@@ -1,7 +1,6 @@
 .nostalgiaSection {
   padding: 80px var(--page-padding);
-  padding-bottom: 400px;
-  background: #FFB3C7;
+  background: #ffb3c7;
 }
 
 .title {
@@ -14,16 +13,44 @@
   margin-bottom: 40px;
 }
 
-.nostalgiaSvg {
-
-}
-
 .description {
   display: flex;
   gap: 40px;
   margin-bottom: 80px;
+  font-size: 1.3vw;
+  font-weight: 300;
+  line-height: 1.4;
 
   & > span {
     width: 50%;
+  }
+}
+
+.quote {
+  border-bottom: 2px solid black;
+  padding-bottom: 6vw;
+  position: relative;
+  overflow: hidden;
+
+  .quoteCopy {
+    font-weight: 700;
+    font-size: 3.1vw;
+    margin-bottom: 40px;
+    padding-right: 20%;
+  }
+
+  .author {
+    font-weight: 600;
+    font-size: 1.5vw;
+  }
+
+  .decoration {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    width: 24vw;
+    object-fit: contain;
+    object-position: bottom right;
   }
 }

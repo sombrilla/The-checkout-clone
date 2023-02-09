@@ -6,6 +6,7 @@
   animation: animateGrain 8s steps(5) infinite;
   position: fixed;
   pointer-events: none;
+  z-index: 4;
 }
 
 @keyframes animateGrain {
