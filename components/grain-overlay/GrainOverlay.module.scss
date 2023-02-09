@@ -1,0 +1,56 @@
+.grainOverlay {
+  width: 300%;
+  height: 300%;
+  background-image: url(/grain.png);
+  opacity: 0.08;
+  animation: animateGrain 8s steps(5) infinite;
+  position: fixed;
+  pointer-events: none;
+}
+
+@keyframes animateGrain {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+
+  10% {
+    translate: -5% -10%;
+  }
+
+  20% {
+    translate: -15% -20%;
+  }
+
+  30% {
+    translate: -5% -10%;
+  }
+
+  40% {
+    translate: -15% -20%;
+  }
+
+  50% {
+    translate: -5% -10%;
+  }
+
+  60% {
+    translate: -15% -20%;
+  }
+
+  70% {
+    translate: -5% -10%;
+  }
+
+  80% {
+    translate: -15% -20%;
+  }
+
+  90% {
+    translate: -5% -10%;
+  }
+
+  100% {
+    translate: -15% -20%;
+  }
+}

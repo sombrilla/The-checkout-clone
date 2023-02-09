@@ -1,3 +1,35 @@
-.video {
-    border: 1px solid red;
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+.videoBackground {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoForeground {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.subtitle {
+  width: 50%;
+  text-align: center;
 }
