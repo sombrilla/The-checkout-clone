@@ -1,0 +1,54 @@
+.trendsSection {
+  height: 800vh;
+  width: 100%;
+  position: relative;
+}
+
+.content {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  padding: 10vh var(--page-padding);
+}
+
+.headingWrapper {
+  margin-bottom: 10vh;
+}
+
+.mainTitle {
+  font-size: 11vw;
+  display: inline-block;
+  line-height: 1em;
+  width: 100%;
+
+  .fiveSvgWrapper {
+    display: inline-block;
+    vertical-align: bottom;
+    overflow: hidden;
+    max-width: 20vw;
+  }
+
+  .fiveSvg {
+    height: 1em;
+    vertical-align: bottom;
+    display: inline-block;
+  }
+}
+
+.subtitle {
+  font-size: 1.8vw;
+  font-weight: 300;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+}
+
+.item {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border: 1px solid red;
+}
